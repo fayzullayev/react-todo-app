@@ -1,0 +1,46 @@
+.ToDo {
+  background-color: #401978;
+  overflow: hidden;
+  max-width: 450px;
+  box-shadow: -17px -17px rgba(0, 0, 0, 0.08);
+}
+.ToDo-title {
+  padding: 40px;
+  color: white;
+}
+.ToDo-title h1 {
+  margin: 0;
+}
+
+.ToDo-title p {
+  margin: 0;
+  margin-top: 3px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+.ToDo-form-container {
+  padding: 40px;
+  padding-top: 30px;
+}
+.Todo-task-container {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.ToDo-no-tasks {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.ToDo-no-tasks .fas {
+  padding: 0;
+  cursor: none;
+  margin-left: 10px;
+}

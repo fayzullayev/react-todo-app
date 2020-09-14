@@ -1,0 +1,36 @@
+.TaskAddForm p {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.TaskAddForm-form {
+  display: flex;
+}
+
+.TaskAddForm-form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.TaskAddForm-form button {
+  width: 220px;
+  border: none;
+  outline: none;
+  background-color: #ff6b6b;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.TaskAddForm-form button:hover {
+  background-color: #f74646;
+}
+
+.TaskAddForm-form button:disabled {
+  background-color: #b9b9b9;
+}

@@ -1,0 +1,92 @@
+.Task {
+  background-color: #5823a4;
+  padding: 7px 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  transition: 0.5s;
+  overflow: hidden;
+  height: 45px;
+}
+
+.fas {
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.fas:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.Task-anim:last-child {
+  animation: anim 1s;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.Task-edit-form {
+  margin-bottom: 10px;
+}
+
+.Task-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Task-container {
+  transition: 0.5s;
+  transform: translateY(-30px);
+}
+
+.Task-container-anim {
+  transform: translateY(28px);
+}
+
+.Task-container-delete-anim {
+  transform: translateX(120%) translateY(-30px);
+}
+
+.Task-title span {
+  position: relative;
+  transition: 0.5s;
+}
+
+.Task-title span::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  position: absolute;
+  background-color: rgba(255, 255, 255);
+  left: 0;
+  top: 55%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+
+.Task-title2 span::after {
+  width: 100%;
+}
+
+.Task-title2 {
+  opacity: 0.7;
+}
+
+.Task-title {
+  flex: 1;
+}
