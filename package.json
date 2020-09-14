@@ -1,6 +1,6 @@
 {
-  "author": "Mirodil Fayzulla",
-  "name": "todo",
+  "author": "Mirodil Fayzullayev",
+  "name": "react-todo-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
