@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/fayzullayev/react-todo-app/master/src/TodoApp.gif" />
+ </div>
+  
+ <br />
+
 ## Author: Mirodil Fayzullayev
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
